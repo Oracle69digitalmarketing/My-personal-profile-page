@@ -2,42 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Profile Page</title>
-</head>
-<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal profile of Adewumi Adewale, a digital marketing strategist, software developer, author, and agripreneur.">
+  <title>Adewumi Adewale - Digital Marketing Strategist & Agripreneur</title>
 
-  <header>
-    <h1>My Profile</h1>
-    <nav>
-      <ul>
-        <li>About Me</li>
-        <li>Hobbies</li>
-        <li>Contact</li>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- External CSS File (for custom styling) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-blue-600 text-white py-6">
+    <h1 class="text-4xl text-center font-bold">Adewumi Adewale</h1>
+    <nav class="text-center">
+      <ul class="list-inline mt-4">
+        <li class="list-inline-item mx-4"><a href="#about" class="text-white hover:text-yellow-400">About Me</a></li>
+        <li class="list-inline-item mx-4"><a href="#hobbies" class="text-white hover:text-yellow-400">Hobbies</a></li>
+        <li class="list-inline-item mx-4"><a href="#contact" class="text-white hover:text-yellow-400">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <img src="https://via.placeholder.com/150" alt="Adewumi Adewale Photo">
-    <p>I am Adewumi Adewale, a digital marketing strategist, software developer, author, and agripreneur dedicated to transforming how rural businesses grow. I lead Oracle69 Digital Marketing, where we help underserved entrepreneurs thrive using smart automation, data-driven strategies, and tailored content systems. I'm also the co-founder of Tessyfarm, an agritech venture focused on sustainable agriculture, fish farming, and eco-friendly innovations like organic fertilizers and smart feed systems.
-
-At the intersection of technology, marketing, and agriculture, I create scalable solutions that empower communities, drive economic growth, and optimize supply chains. My work combines innovation with impact, bridging digital gaps and unlocking new opportunities in both tech and agri-based sectors.</p>
+  <section id="about" class="py-10 px-4">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl text-blue-600 mb-6 font-semibold">About Me</h2>
+      <img src="https://via.placeholder.com/150" alt="Adewumi Adewale" class="rounded-full mb-4 mx-auto">
+      <p class="max-w-2xl mx-auto">
+        I am Adewumi Adewale, a digital marketing strategist, software developer, author, and agripreneur dedicated to transforming how rural businesses grow. I lead Oracle69 Digital Marketing, where we help underserved entrepreneurs thrive using smart automation, data-driven strategies, and tailored content systems. I'm also the co-founder of Tessyfarm, an agritech venture focused on sustainable agriculture, fish farming, and eco-friendly innovations like organic fertilizers and smart feed systems.
+      </p>
+      <p class="max-w-2xl mx-auto mt-4">
+        At the intersection of technology, marketing, and agriculture, I create scalable solutions that empower communities, drive economic growth, and optimize supply chains. My work combines innovation with impact, bridging digital gaps and unlocking new opportunities in both tech and agri-based sectors.
+      </p>
+    </div>
   </section>
 
-  <section>
-    <h2>Hobbies & Interests</h2>
-    <ul>
-      <li>Gardening</li>
-      <li>Photography</li>
-      <li>Traveling</li>
-    </ul>
+  <section id="hobbies" class="py-10 px-4 bg-gray-200">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl text-blue-600 mb-6 font-semibold">Hobbies & Interests</h2>
+      <ul class="list-disc list-inside">
+        <li>Gardening</li>
+        <li>Photography</li>
+        <li>Traveling</li>
+      </ul>
+    </div>
   </section>
 
-  <footer>
-    <p>Email: adewaleadewumi78@gmail.com</p>
-    <p>Twitter: @sophiemabel69</p>
+  <section id="contact" class="py-10 px-4">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl text-blue-600 mb-6 font-semibold">Contact</h2>
+      <p>If you'd like to connect, feel free to reach out to me via the contact details below:</p>
+      <p class="mt-4"><a href="mailto:adewaleadewumi78@gmail.com" class="text-blue-600 hover:text-yellow-400">adewaleadewumi78@gmail.com</a></p>
+      <p class="mt-2"><a href="https://twitter.com/sophiemabel69" target="_blank" class="text-blue-600 hover:text-yellow-400">@sophiemabel69</a></p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2025 Adewumi Adewale. All rights reserved.</p>
   </footer>
 
+  <!-- Bootstrap JS (optional, if needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
